@@ -49,3 +49,9 @@ header img {
 footer{
     background-color: #043D7D;
 }
+
+table{
+    margin: 5px;
+    padding: 5px;
+    border-color: #319EFC;
+}
