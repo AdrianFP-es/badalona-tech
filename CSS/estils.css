@@ -1,0 +1,27 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #043D7D;
+  color: white;
+}
+
+ul {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  list-style: none;
+  
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+#inici {
+    background-color: #319EFC;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 8px;
+}
