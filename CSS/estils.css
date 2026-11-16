@@ -6,12 +6,13 @@ header {
   color: white;
 }
 
-ul {
+#menu {
   display: flex;
   align-items: center;
   gap: 20px;
   list-style: none;
-  
+  text-decoration: none;
+  color: white;
 }
 
 a{
@@ -39,4 +40,12 @@ header img {
 #titulo{
   border-left: 1px solid white;
   padding-left: 15px;
+}
+
+#ajuntament{
+    text-decoration: dashed;
+}
+
+footer{
+    background-color: #043D7D;
 }
