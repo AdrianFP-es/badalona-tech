@@ -28,7 +28,54 @@
     </header>
 
     <main>
+        <h2>Inscripció a la fira</h2>
+        <p>Omple el formulari següent per inscriute't a la Badalona Tech 2027</p>
 
+        <section>
+            <legend>Dades personals</legend>
+            <form action="" method="get"></form>
+            <fieldset>
+                <label for="name">Nom complet*</label>
+                <input placeholder="Nom i cognoms" type="text" id="nombre" required>
+
+                <label for="correu">Correu electrònic*</label>
+                <input placeholder="nom@exemple.cat" type="email" id="correu" required> <br> <br>
+
+                <label for="telefon">Telèfon</label>
+                <input placeholder="600 000 000" type="tel" id="telefon">
+            </fieldset>
+        </section>
+            <fieldset>
+                <legend>Activitat i preferències</legend>
+
+                <label for="activitat">Activitat*</label>
+                    <select>
+                        <option value="1">Muntatge del robot</option>
+                        <option value="2">Programació de moviments</option>
+                        <option value="2">Ús de sensors (distància, llum, etc)</option>
+                    </select>
+
+                <legend>Dia d'assistencia</legend>
+                <label for="assistencia">Dissabte</label>
+                <input type="radio" id="assistencia" required>
+                <select>
+                <label for="assistencia">Diumenge</label>
+                <input type="radio" id="assistencia" required>
+
+                <label for="observacion">Observacions</label><br>
+                <textarea></textarea>
+                <br>
+                <label for="futur">Rebre informació sobre futures activitats</label>
+                <input type="radio" name="inform" id="inform" required>
+                <label for="acceptar" id="acceptar">Acceptar les condicions de participació.*</label> <br>
+
+                <label for="submit">Enviar inscripció</label>
+                <input type="submit">
+                
+                <label for="netejar">Netejar</label>
+                <input type="reset">
+            </fieldset>
+        <section>
     </main>
 
     <footer>
